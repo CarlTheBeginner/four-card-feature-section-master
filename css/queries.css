@@ -1,0 +1,30 @@
+@media (max-width: 59em) {
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main-box-1 {
+    width: 78%;
+  }
+
+  .other-container {
+    justify-content: center;
+  }
+
+  .main-box-2 {
+    flex-shrink: 0;
+    width: 78%;
+    margin: 0 auto;
+  }
+
+  .main-box-3 {
+    flex-shrink: 0;
+    width: 78%;
+    margin: 0 auto;
+  }
+
+  .main-box-4 {
+    width: 78%;
+  }
+}

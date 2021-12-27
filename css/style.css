@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 0%, 98%);
+}
+
+.section-main {
+  height: 100vh;
+  padding: 9.6rem 0;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.primary-heading {
+  font-size: 3.6rem;
+  font-weight: 300;
+  color: hsl(234, 12%, 34%);
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  color: hsl(229, 6%, 66%);
+}
+
+.hero-text-box {
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+.heading-secondary {
+  color: hsl(234, 12%, 34%);
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.features-paragraph {
+  color: #777;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.other-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.main-box {
+  padding: 6rem;
+  box-shadow: 0px 17px 20px 8px #d3d3eb;
+}
+
+.main-box-1 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 6px 6px 0 0;
+}
+.main-box-2 {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  border-radius: 6px 6px 0 0;
+}
+.main-box-3 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  border-radius: 6px 6px 0 0;
+}
+
+.main-box-4 {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  border-radius: 6px 6px 0 0;
+  width: 37%;
+}
+
+.icon-box {
+  display: block;
+  display: flex;
+  justify-content: flex-end;
+}
